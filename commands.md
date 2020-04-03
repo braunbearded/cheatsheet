@@ -34,6 +34,8 @@
 * yay skip check: yay -S --mflags --nocheck packagename
 * list all packages: pacman -Sgg
 * install from file input: pacman -S - < file
+* mark package as no explicit installed: pacman -D --asdeps packagename
+* mark package as explicit installed: pacman -D --asexplicit packagename
 
 # Manjaro specific
 + update mirror sort by download speed:
