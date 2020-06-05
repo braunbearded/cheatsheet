@@ -22,3 +22,15 @@ OSINT List by IntelTechniques.com
 [Link](https://www.reddit.com/r/vim/comments/32r85c/this_is_my_favorite_vim_cheat_sheet_does_anyone/)
 [Link](https://www.kickstarter.com/projects/maxcantor/beautiful-vim-cheat-sheet-poster)
 By Max Cantor
+
+## oscp.png
+[Link](https://ceso.github.io/posts/2020/04/hacking/oscp-cheatsheet/)
+By Leandro Lemos
+
+## win-priv-esc1.jpg
+[Link](https://medium.com/@sghosh2402/privilege-escalation-in-windows-380bee3a2842)
+By Sourov Ghosh
+
+## win-priv-esc2.png
+[Link](https://www.absolomb.com/2018-01-26-Windows-Privilege-Escalation-Guide/)
+By Ryan McFarland
