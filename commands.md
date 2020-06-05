@@ -26,8 +26,8 @@
 * Uninstall unneeded packages:pacman -Rns $(pacman -Qdtq)
 * clear cache /var/cache/pacman: sudo pacman -Scc
 * clear cache pacman/aur: sudo yay -Scc
-* list explictly installed packages: sudo pacman -Qe
-* list explictly installed aur packages: sudo pacman -Qm
+* list explictly installed packages: sudo pacman -Qqem
+* list explictly installed aur packages: sudo pacman -Qqen
 * list unsued packages: sudo pacman -Qtdq
 * list packages which required X: sudo pacman -Sii packagename_x
 * file ownd by package: pacman -Qo /path/to/file
@@ -90,3 +90,5 @@
 * installed apps on user 0 (default): pm list packages --user 0
 * all apps: pm list packages --user 0 -u
 
+# ssl
+* self-sign cert: openssl req -newkey rsa:4096 -nodes -sha512 -x509 -days 3650 -nodes -out cert.pem -keyout key.pem
